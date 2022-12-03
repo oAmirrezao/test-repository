@@ -2,9 +2,9 @@
 
 int main()
 {
-  int a,b;
-  printf("Please enter two numbers:");
-  scanf("%d %d",&a,&b);
-  printf("%d+%d = %d",a,b,a+b);
+  int a;
+  printf("Please enter a number:");
+  scanf("%d",&a);
+  printf("yoru number is : %d",a);
   return 0;
 }
