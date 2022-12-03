@@ -2,6 +2,9 @@
 
 int main()
 {
-  printf("hello Amirreza");
+  int a;
+  printf("Please enter a number:");
+  scanf("%d",&a);
+  printf("yoru number is : %d",a);
   return 0;
 }
